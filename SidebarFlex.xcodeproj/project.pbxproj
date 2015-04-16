@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD90D01F1ADF835800370599 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD90D01E1ADF835800370599 /* AppKit.framework */; };
+		BD90D0211ADF835800370599 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD90D0201ADF835800370599 /* Foundation.framework */; };
+		BD90D0261ADF835800370599 /* SidebarFlex.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = BD90D0251ADF835800370599 /* SidebarFlex.xcscheme */; };
+		BD90D0291ADF835800370599 /* SidebarFlex.m in Sources */ = {isa = PBXBuildFile; fileRef = BD90D0281ADF835800370599 /* SidebarFlex.m */; };
+		BD90D0311ADF83A400370599 /* DVTTextSidebarView+WindowFlex.m in Sources */ = {isa = PBXBuildFile; fileRef = BD90D0301ADF83A400370599 /* DVTTextSidebarView+WindowFlex.m */; };
+		BD90D0331ADF83D900370599 /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD90D0321ADF83D900370599 /* DVTKit.framework */; };
+		BD90D0351ADF83E200370599 /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD90D0341ADF83E200370599 /* IDEKit.framework */; };
+		BD90D0371ADF83ED00370599 /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD90D0361ADF83ED00370599 /* DVTFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD90D01B1ADF835800370599 /* SidebarFlex.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SidebarFlex.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD90D01E1ADF835800370599 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		BD90D0201ADF835800370599 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		BD90D0241ADF835800370599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD90D0251ADF835800370599 /* SidebarFlex.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = SidebarFlex.xcscheme; path = SidebarFlex.xcodeproj/xcshareddata/xcschemes/SidebarFlex.xcscheme; sourceTree = SOURCE_ROOT; };
+		BD90D0271ADF835800370599 /* SidebarFlex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SidebarFlex.h; sourceTree = "<group>"; };
+		BD90D0281ADF835800370599 /* SidebarFlex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SidebarFlex.m; sourceTree = "<group>"; };
+		BD90D02F1ADF83A400370599 /* DVTTextSidebarView+WindowFlex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTTextSidebarView+WindowFlex.h"; sourceTree = "<group>"; };
+		BD90D0301ADF83A400370599 /* DVTTextSidebarView+WindowFlex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DVTTextSidebarView+WindowFlex.m"; sourceTree = "<group>"; };
+		BD90D0321ADF83D900370599 /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = ../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework; sourceTree = "<group>"; };
+		BD90D0341ADF83E200370599 /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEKit.framework; path = ../../../../Applications/Xcode.app/Contents/Frameworks/IDEKit.framework; sourceTree = "<group>"; };
+		BD90D0361ADF83ED00370599 /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTFoundation.framework; path = ../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD90D0191ADF835800370599 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD90D01F1ADF835800370599 /* AppKit.framework in Frameworks */,
+				BD90D0211ADF835800370599 /* Foundation.framework in Frameworks */,
+				BD90D0331ADF83D900370599 /* DVTKit.framework in Frameworks */,
+				BD90D0371ADF83ED00370599 /* DVTFoundation.framework in Frameworks */,
+				BD90D0351ADF83E200370599 /* IDEKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD90D0121ADF835800370599 = {
+			isa = PBXGroup;
+			children = (
+				BD90D0221ADF835800370599 /* SidebarFlex */,
+				BD90D01D1ADF835800370599 /* Frameworks */,
+				BD90D01C1ADF835800370599 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD90D01C1ADF835800370599 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD90D01B1ADF835800370599 /* SidebarFlex.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD90D01D1ADF835800370599 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD90D0361ADF83ED00370599 /* DVTFoundation.framework */,
+				BD90D0341ADF83E200370599 /* IDEKit.framework */,
+				BD90D0321ADF83D900370599 /* DVTKit.framework */,
+				BD90D01E1ADF835800370599 /* AppKit.framework */,
+				BD90D0201ADF835800370599 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD90D0221ADF835800370599 /* SidebarFlex */ = {
+			isa = PBXGroup;
+			children = (
+				BD90D02F1ADF83A400370599 /* DVTTextSidebarView+WindowFlex.h */,
+				BD90D0301ADF83A400370599 /* DVTTextSidebarView+WindowFlex.m */,
+				BD90D0271ADF835800370599 /* SidebarFlex.h */,
+				BD90D0281ADF835800370599 /* SidebarFlex.m */,
+				BD90D0231ADF835800370599 /* Supporting Files */,
+			);
+			path = SidebarFlex;
+			sourceTree = "<group>";
+		};
+		BD90D0231ADF835800370599 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD90D0241ADF835800370599 /* Info.plist */,
+				BD90D0251ADF835800370599 /* SidebarFlex.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD90D01A1ADF835800370599 /* SidebarFlex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD90D02C1ADF835800370599 /* Build configuration list for PBXNativeTarget "SidebarFlex" */;
+			buildPhases = (
+				BD90D0171ADF835800370599 /* Sources */,
+				BD90D0181ADF835800370599 /* Resources */,
+				BD90D0191ADF835800370599 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SidebarFlex;
+			productName = SidebarFlex;
+			productReference = BD90D01B1ADF835800370599 /* SidebarFlex.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD90D0131ADF835800370599 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = zenangst;
+				TargetAttributes = {
+					BD90D01A1ADF835800370599 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = BD90D0161ADF835800370599 /* Build configuration list for PBXProject "SidebarFlex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD90D0121ADF835800370599;
+			productRefGroup = BD90D01C1ADF835800370599 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD90D01A1ADF835800370599 /* SidebarFlex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD90D0181ADF835800370599 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD90D0261ADF835800370599 /* SidebarFlex.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD90D0171ADF835800370599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD90D0311ADF83A400370599 /* DVTTextSidebarView+WindowFlex.m in Sources */,
+				BD90D0291ADF835800370599 /* SidebarFlex.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BD90D02A1ADF835800370599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		BD90D02B1ADF835800370599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		BD90D02D1ADF835800370599 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+				);
+				INFOPLIST_FILE = SidebarFlex/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		BD90D02E1ADF835800370599 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+				);
+				INFOPLIST_FILE = SidebarFlex/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD90D0161ADF835800370599 /* Build configuration list for PBXProject "SidebarFlex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD90D02A1ADF835800370599 /* Debug */,
+				BD90D02B1ADF835800370599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD90D02C1ADF835800370599 /* Build configuration list for PBXNativeTarget "SidebarFlex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD90D02D1ADF835800370599 /* Debug */,
+				BD90D02E1ADF835800370599 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD90D0131ADF835800370599 /* Project object */;
+}
