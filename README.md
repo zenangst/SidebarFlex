@@ -1,8 +1,8 @@
 ##SidebarFlex
 
-<img src="https://raw.githubusercontent.com/zenangst/SidebarFlex/master/assets/screenshot.png" alt="SidebarFlex">
+### Work in progress
 
-**Work in progress**
+<img src="https://raw.githubusercontent.com/zenangst/SidebarFlex/master/assets/screenshot.png" alt="SidebarFlex">
 
 #### Build from Source
 
