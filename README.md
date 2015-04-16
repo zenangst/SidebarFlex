@@ -1,4 +1,6 @@
-####SidebarFlex
+##SidebarFlex
+
+<img src="https://raw.githubusercontent.com/zenangst/SidebarFlex/master/assets/screenshot.png" alt="SidebarFlex">
 
 **Work in progress**
 
