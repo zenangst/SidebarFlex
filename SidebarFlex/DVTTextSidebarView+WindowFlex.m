@@ -9,6 +9,9 @@
 #import "DVTTextSidebarView+WindowFlex.h"
 #import <objc/runtime.h>
 
+static double kSidebarFlexSidebarWidthWithoutLineNumbers = 33.0;
+static double kSidebarFlexSidebarWidthWithLineNumbers = 5.0;
+
 @implementation DVTTextSidebarView (WindowFlex)
 
 - (id)zen_foldbarBackgroundColor
@@ -38,7 +41,7 @@
 
 - (double)zen_sidebarWidth
 {
-    double sidebarWidth = [self zen_sidebarWidth] - 5;
+    double sidebarWidth = [self zen_sidebarWidth] - kSidebarFlexSidebarWidthWithoutLineNumbers;
 
     return sidebarWidth;
 }
