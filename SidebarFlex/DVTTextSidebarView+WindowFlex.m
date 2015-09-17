@@ -38,7 +38,7 @@
 
 - (double)zen_sidebarWidth
 {
-    double sidebarWidth = [self zen_sidebarWidth] - 5;
+    double sidebarWidth = [self zen_sidebarWidth] - 1;
 
     return sidebarWidth;
 }
