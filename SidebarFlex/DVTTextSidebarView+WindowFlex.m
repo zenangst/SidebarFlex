@@ -33,7 +33,7 @@
 
 - (id)zen_lineNumberFont
 {
-    return [NSFont fontWithName:@"Menlo" size:10.f];
+    return [NSFont fontWithName:@"Menlo" size:9.f];
 }
 
 - (double)zen_sidebarWidth
