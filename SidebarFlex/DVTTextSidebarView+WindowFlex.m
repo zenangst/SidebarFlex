@@ -18,7 +18,7 @@
 
 - (id)zen_sidebarBackgroundColor
 {
-    return [NSColor colorWithSRGBRed:0.980 green:0.980 blue:0.980 alpha:1];
+    return [NSColor colorWithSRGBRed:1.0 green:1.0 blue:1.0 alpha:1];
 }
 
 - (id)zen_lineNumberTextColor
@@ -28,7 +28,7 @@
 
 - (id)zen_sidebarEdgeColor
 {
-    return [NSColor colorWithSRGBRed:0.980 green:0.980 blue:0.980 alpha:1];
+  return [NSColor colorWithSRGBRed:0.980 green:0.980 blue:0.980 alpha:1];
 }
 
 - (id)zen_lineNumberFont
